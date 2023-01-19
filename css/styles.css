@@ -1,0 +1,137 @@
+* {
+  font-family: "Outfit";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  color: #fff;
+}
+body p {
+  font-size: 1.125rem;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+body .container {
+  max-width: 1440px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+body .container .conteudo {
+  max-width: 375px;
+  background: #14253d;
+  padding: 1.5rem 1.5rem 2.5rem;
+  border-radius: 25px;
+  margin: 0 25px;
+}
+body .container .conteudo-imagem {
+  position: relative;
+}
+body .container .conteudo-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+body .container .conteudo-imagem-hover {
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .conteudo-imagem-hover:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 247, 0.5);
+  transition: 0.4s;
+}
+body .container .conteudo-titulo {
+  font-size: 1.313rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  letter-spacing: 0.05rem;
+}
+body .container .conteudo-titulo:hover {
+  cursor: pointer;
+  color: #00fff7;
+  transition: 0.4s;
+}
+body .container .conteudo-subtitulo {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #8bacda;
+  margin: 1.5rem 0;
+}
+body .container .conteudo-infos {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .conteudo-infos p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  justify-content: space-between;
+  max-width: 100px;
+}
+@media (min-width: 480px) {
+  body .container .conteudo-infos p {
+    width: 33.3%;
+    max-width: initial;
+  }
+}
+body .container .conteudo-infos p:first-child {
+  color: #00fff7;
+  font-weight: 600;
+}
+body .container .conteudo-infos p:nth-child(2) {
+  color: #8bacda;
+}
+body .container .conteudo hr {
+  border: 1px solid #2f415b;
+  margin: 1.5rem 0;
+}
+body .container .conteudo-autor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+}
+body .container .conteudo-autor img {
+  border: solid 1px #fff;
+  border-radius: 50%;
+  max-width: 35px;
+}
+body .container .conteudo-autor p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+body .container .conteudo-autor:hover {
+  cursor: pointer;
+  color: #00fff7;
+  transition: 0.4s;
+}
+body .container .conteudo-autor span {
+  color: #8bacda;
+  margin-left: 1rem;
+}
+body .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */
