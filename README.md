@@ -28,7 +28,7 @@ O desafio aqui foi construir esse componente de card NFT e deixá-lo o mais pró
 
 ### Links
 
-- Live Site URL: [QR-code-preview](https://qr-code-roan-ten.vercel.app/)
+- Live Site URL: [NFT Preview Card Component](https://nft-preview-card-component-eta-five.vercel.app/)
 
 
 ## Meu processo
