@@ -54,9 +54,16 @@ body .container .conteudo-imagem-hover {
   align-items: center;
   justify-content: center;
 }
+body .container .conteudo-imagem-hover img {
+  display: none;
+}
 body .container .conteudo-imagem-hover:hover {
   cursor: pointer;
   background-color: rgba(0, 255, 247, 0.5);
+  transition: 0.4s;
+}
+body .container .conteudo-imagem-hover:hover img {
+  display: flex;
   transition: 0.4s;
 }
 body .container .conteudo-titulo {

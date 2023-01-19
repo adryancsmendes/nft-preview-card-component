@@ -49,10 +49,20 @@ body
                 border-radius: 15px
                 @include mixins.flex-center
 
+                img
+                    display: none
+                     
+
                 &:hover
                     cursor: pointer
                     background-color: rgba(0, 255, 247, 0.5)
                     transition: .4s
+                    
+                
+                &:hover img
+                    display: flex
+                    transition: .4s
+                    
                 
             &-titulo
                 font-size: 1.313rem
