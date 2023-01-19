@@ -24,7 +24,6 @@ body .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 95vh;
 }
 body .container .conteudo {
   max-width: 375px;
